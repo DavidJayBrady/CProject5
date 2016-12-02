@@ -23,6 +23,5 @@ void TypeCharacter::undo(EditorModel& model)
 {
     std::vector<std::string>& text = model.giveText();
     text[line-1].erase(column-1, 1);
-
     model.setCurrentColumn(column);
 }

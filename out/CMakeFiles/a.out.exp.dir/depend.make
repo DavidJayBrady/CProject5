@@ -15,6 +15,12 @@ CMakeFiles/a.out.exp.dir/app/BooEdit.cpp.o: ../app/InteractionType.hpp
 CMakeFiles/a.out.exp.dir/app/BooEditLog.cpp.o: ../app/BooEditLog.cpp
 CMakeFiles/a.out.exp.dir/app/BooEditLog.cpp.o: ../app/BooEditLog.hpp
 
+CMakeFiles/a.out.exp.dir/app/CursorEnd.cpp.o: ../app/Command.hpp
+CMakeFiles/a.out.exp.dir/app/CursorEnd.cpp.o: ../app/CursorEnd.cpp
+CMakeFiles/a.out.exp.dir/app/CursorEnd.cpp.o: ../app/CursorEnd.hpp
+CMakeFiles/a.out.exp.dir/app/CursorEnd.cpp.o: ../app/EditorException.hpp
+CMakeFiles/a.out.exp.dir/app/CursorEnd.cpp.o: ../app/EditorModel.hpp
+
 CMakeFiles/a.out.exp.dir/app/CursorHome.cpp.o: ../app/Command.hpp
 CMakeFiles/a.out.exp.dir/app/CursorHome.cpp.o: ../app/CursorHome.cpp
 CMakeFiles/a.out.exp.dir/app/CursorHome.cpp.o: ../app/CursorHome.hpp
@@ -50,6 +56,7 @@ CMakeFiles/a.out.exp.dir/app/InteractionProcessor.cpp.o: ../app/InteractionReade
 CMakeFiles/a.out.exp.dir/app/InteractionProcessor.cpp.o: ../app/InteractionType.hpp
 
 CMakeFiles/a.out.exp.dir/app/KeypressInteractionReader.cpp.o: ../app/Command.hpp
+CMakeFiles/a.out.exp.dir/app/KeypressInteractionReader.cpp.o: ../app/CursorEnd.hpp
 CMakeFiles/a.out.exp.dir/app/KeypressInteractionReader.cpp.o: ../app/CursorHome.hpp
 CMakeFiles/a.out.exp.dir/app/KeypressInteractionReader.cpp.o: ../app/CursorLeft.hpp
 CMakeFiles/a.out.exp.dir/app/KeypressInteractionReader.cpp.o: ../app/CursorRight.hpp

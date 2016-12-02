@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/a.out.gtest.dir/app/InteractionProcessor.cpp.o"
   "CMakeFiles/a.out.gtest.dir/app/TypeCharacter.cpp.o"
   "CMakeFiles/a.out.gtest.dir/app/BooEdit.cpp.o"
+  "CMakeFiles/a.out.gtest.dir/app/CursorEnd.cpp.o"
   "CMakeFiles/a.out.gtest.dir/app/CursorRight.cpp.o"
   "CMakeFiles/a.out.gtest.dir/app/KeypressInteractionReader.cpp.o"
   "CMakeFiles/a.out.gtest.dir/app/CursorLeft.cpp.o"

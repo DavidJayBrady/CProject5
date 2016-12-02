@@ -116,6 +116,10 @@ unsigned int EditorModel::redoTrackerSize()
     return redoTracker.size();
 }
 
+std::string& EditorModel::giveCurrentLine()
+{
+    return text[currentLine-1];
+}
 
 std::vector<std::string>& EditorModel::giveText()
 {

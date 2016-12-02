@@ -15,6 +15,12 @@ CMakeFiles/a.out.app.dir/app/BooEdit.cpp.o
 CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o
  /home/ics45c/projects/proj4/app/BooEditLog.cpp
  /home/ics45c/projects/proj4/app/BooEditLog.hpp
+CMakeFiles/a.out.app.dir/app/CursorEnd.cpp.o
+ /home/ics45c/projects/proj4/app/Command.hpp
+ /home/ics45c/projects/proj4/app/CursorEnd.cpp
+ /home/ics45c/projects/proj4/app/CursorEnd.hpp
+ /home/ics45c/projects/proj4/app/EditorException.hpp
+ /home/ics45c/projects/proj4/app/EditorModel.hpp
 CMakeFiles/a.out.app.dir/app/CursorHome.cpp.o
  /home/ics45c/projects/proj4/app/Command.hpp
  /home/ics45c/projects/proj4/app/CursorHome.cpp
@@ -51,6 +57,7 @@ CMakeFiles/a.out.app.dir/app/InteractionProcessor.cpp.o
  /home/ics45c/projects/proj4/app/InteractionType.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o
  /home/ics45c/projects/proj4/app/Command.hpp
+ /home/ics45c/projects/proj4/app/CursorEnd.hpp
  /home/ics45c/projects/proj4/app/CursorHome.hpp
  /home/ics45c/projects/proj4/app/CursorLeft.hpp
  /home/ics45c/projects/proj4/app/CursorRight.hpp

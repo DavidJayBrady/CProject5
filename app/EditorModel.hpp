@@ -88,6 +88,7 @@ public:
     unsigned int undoTrackerSize();
     unsigned int redoTrackerSize();
 
+    std::string& giveCurrentLine();
     std::vector<std::string>& giveText();
     std::vector<std::string> text;
 

@@ -215,6 +215,39 @@ app/BooEditLog.cpp.s:
 	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.s
 .PHONY : app/BooEditLog.cpp.s
 
+app/CursorEnd.o: app/CursorEnd.cpp.o
+
+.PHONY : app/CursorEnd.o
+
+# target to build an object file
+app/CursorEnd.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/CursorEnd.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorEnd.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/CursorEnd.cpp.o
+.PHONY : app/CursorEnd.cpp.o
+
+app/CursorEnd.i: app/CursorEnd.cpp.i
+
+.PHONY : app/CursorEnd.i
+
+# target to preprocess a source file
+app/CursorEnd.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/CursorEnd.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorEnd.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/CursorEnd.cpp.i
+.PHONY : app/CursorEnd.cpp.i
+
+app/CursorEnd.s: app/CursorEnd.cpp.s
+
+.PHONY : app/CursorEnd.s
+
+# target to generate assembly for a file
+app/CursorEnd.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/CursorEnd.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorEnd.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/CursorEnd.cpp.s
+.PHONY : app/CursorEnd.cpp.s
+
 app/CursorHome.o: app/CursorHome.cpp.o
 
 .PHONY : app/CursorHome.o
@@ -691,6 +724,9 @@ help:
 	@echo "... app/BooEditLog.o"
 	@echo "... app/BooEditLog.i"
 	@echo "... app/BooEditLog.s"
+	@echo "... app/CursorEnd.o"
+	@echo "... app/CursorEnd.i"
+	@echo "... app/CursorEnd.s"
 	@echo "... app/CursorHome.o"
 	@echo "... app/CursorHome.i"
 	@echo "... app/CursorHome.s"

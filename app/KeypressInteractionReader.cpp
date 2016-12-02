@@ -12,6 +12,7 @@
 #include "CursorLeft.hpp"
 #include "CursorHome.hpp"
 #include "TypeCharacter.hpp"
+#include "CursorEnd.hpp"
 
 // You will need to update this member function to watch for the right
 // keypresses and build the right kinds of Interactions as a result.
@@ -45,6 +46,8 @@ Interaction KeypressInteractionReader::nextInteraction()
                     return Interaction::command(new CursorLeft());
                 case 'Y':
                     return Interaction::command(new CursorHome());
+                case 'P':
+                    return Interaction::command(new CursorEnd());
             }
         }
         else

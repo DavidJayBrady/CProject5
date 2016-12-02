@@ -38,6 +38,16 @@ EditorModel.hpp
 EditorException.hpp
 /home/ics45c/projects/proj4/app/EditorException.hpp
 
+/home/ics45c/projects/proj4/app/CursorEnd.cpp
+CursorEnd.hpp
+/home/ics45c/projects/proj4/app/CursorEnd.hpp
+EditorException.hpp
+/home/ics45c/projects/proj4/app/EditorException.hpp
+
+/home/ics45c/projects/proj4/app/CursorEnd.hpp
+Command.hpp
+/home/ics45c/projects/proj4/app/Command.hpp
+
 /home/ics45c/projects/proj4/app/CursorHome.cpp
 CursorHome.hpp
 /home/ics45c/projects/proj4/app/CursorHome.hpp
@@ -131,6 +141,8 @@ CursorHome.hpp
 /home/ics45c/projects/proj4/app/CursorHome.hpp
 TypeCharacter.hpp
 /home/ics45c/projects/proj4/app/TypeCharacter.hpp
+CursorEnd.hpp
+/home/ics45c/projects/proj4/app/CursorEnd.hpp
 
 /home/ics45c/projects/proj4/app/KeypressInteractionReader.hpp
 InteractionReader.hpp
