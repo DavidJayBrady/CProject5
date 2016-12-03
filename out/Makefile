@@ -512,6 +512,39 @@ app/NcursesKeypressReader.cpp.s:
 	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/NcursesKeypressReader.cpp.s
 .PHONY : app/NcursesKeypressReader.cpp.s
 
+app/NewLine.o: app/NewLine.cpp.o
+
+.PHONY : app/NewLine.o
+
+# target to build an object file
+app/NewLine.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/NewLine.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/NewLine.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/NewLine.cpp.o
+.PHONY : app/NewLine.cpp.o
+
+app/NewLine.i: app/NewLine.cpp.i
+
+.PHONY : app/NewLine.i
+
+# target to preprocess a source file
+app/NewLine.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/NewLine.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/NewLine.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/NewLine.cpp.i
+.PHONY : app/NewLine.cpp.i
+
+app/NewLine.s: app/NewLine.cpp.s
+
+.PHONY : app/NewLine.s
+
+# target to generate assembly for a file
+app/NewLine.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/NewLine.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/NewLine.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/NewLine.cpp.s
+.PHONY : app/NewLine.cpp.s
+
 app/TypeCharacter.o: app/TypeCharacter.cpp.o
 
 .PHONY : app/TypeCharacter.o
@@ -751,6 +784,9 @@ help:
 	@echo "... app/NcursesKeypressReader.o"
 	@echo "... app/NcursesKeypressReader.i"
 	@echo "... app/NcursesKeypressReader.s"
+	@echo "... app/NewLine.o"
+	@echo "... app/NewLine.i"
+	@echo "... app/NewLine.s"
 	@echo "... app/TypeCharacter.o"
 	@echo "... app/TypeCharacter.i"
 	@echo "... app/TypeCharacter.s"

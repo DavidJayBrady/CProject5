@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/a.out.app.dir/app/NewLine.cpp.o"
   "CMakeFiles/a.out.app.dir/app/NcursesKeypressReader.cpp.o"
   "CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o"
   "CMakeFiles/a.out.app.dir/app/EditorModel.cpp.o"

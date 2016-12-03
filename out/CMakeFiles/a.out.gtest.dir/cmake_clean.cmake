@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/a.out.gtest.dir/gtest/gtestmain.cpp.o"
   "CMakeFiles/a.out.gtest.dir/gtest/MockKeypressReader.cpp.o"
   "CMakeFiles/a.out.gtest.dir/gtest/MockInteractionReader.cpp.o"
+  "CMakeFiles/a.out.gtest.dir/app/NewLine.cpp.o"
   "CMakeFiles/a.out.gtest.dir/app/NcursesKeypressReader.cpp.o"
   "CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.o"
   "CMakeFiles/a.out.gtest.dir/app/EditorModel.cpp.o"

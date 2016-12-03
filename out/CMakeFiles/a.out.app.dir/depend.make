@@ -69,6 +69,7 @@ CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/Keypress.hp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/KeypressInteractionReader.cpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/KeypressInteractionReader.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/KeypressReader.hpp
+CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/NewLine.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/TypeCharacter.hpp
 
 CMakeFiles/a.out.app.dir/app/NcursesEditorView.cpp.o: ../app/EditorModel.hpp
@@ -80,6 +81,12 @@ CMakeFiles/a.out.app.dir/app/NcursesKeypressReader.cpp.o: ../app/Keypress.hpp
 CMakeFiles/a.out.app.dir/app/NcursesKeypressReader.cpp.o: ../app/KeypressReader.hpp
 CMakeFiles/a.out.app.dir/app/NcursesKeypressReader.cpp.o: ../app/NcursesKeypressReader.cpp
 CMakeFiles/a.out.app.dir/app/NcursesKeypressReader.cpp.o: ../app/NcursesKeypressReader.hpp
+
+CMakeFiles/a.out.app.dir/app/NewLine.cpp.o: ../app/Command.hpp
+CMakeFiles/a.out.app.dir/app/NewLine.cpp.o: ../app/EditorException.hpp
+CMakeFiles/a.out.app.dir/app/NewLine.cpp.o: ../app/EditorModel.hpp
+CMakeFiles/a.out.app.dir/app/NewLine.cpp.o: ../app/NewLine.cpp
+CMakeFiles/a.out.app.dir/app/NewLine.cpp.o: ../app/NewLine.hpp
 
 CMakeFiles/a.out.app.dir/app/TypeCharacter.cpp.o: ../app/BooEditLog.hpp
 CMakeFiles/a.out.app.dir/app/TypeCharacter.cpp.o: ../app/Command.hpp

@@ -70,6 +70,7 @@ CMakeFiles/a.out.gtest.dir/app/KeypressInteractionReader.cpp.o
  /home/ics45c/projects/proj4/app/KeypressInteractionReader.cpp
  /home/ics45c/projects/proj4/app/KeypressInteractionReader.hpp
  /home/ics45c/projects/proj4/app/KeypressReader.hpp
+ /home/ics45c/projects/proj4/app/NewLine.hpp
  /home/ics45c/projects/proj4/app/TypeCharacter.hpp
 CMakeFiles/a.out.gtest.dir/app/NcursesEditorView.cpp.o
  /home/ics45c/projects/proj4/app/EditorModel.hpp
@@ -81,6 +82,12 @@ CMakeFiles/a.out.gtest.dir/app/NcursesKeypressReader.cpp.o
  /home/ics45c/projects/proj4/app/KeypressReader.hpp
  /home/ics45c/projects/proj4/app/NcursesKeypressReader.cpp
  /home/ics45c/projects/proj4/app/NcursesKeypressReader.hpp
+CMakeFiles/a.out.gtest.dir/app/NewLine.cpp.o
+ /home/ics45c/projects/proj4/app/Command.hpp
+ /home/ics45c/projects/proj4/app/EditorException.hpp
+ /home/ics45c/projects/proj4/app/EditorModel.hpp
+ /home/ics45c/projects/proj4/app/NewLine.cpp
+ /home/ics45c/projects/proj4/app/NewLine.hpp
 CMakeFiles/a.out.gtest.dir/app/TypeCharacter.cpp.o
  /home/ics45c/projects/proj4/app/BooEditLog.hpp
  /home/ics45c/projects/proj4/app/Command.hpp

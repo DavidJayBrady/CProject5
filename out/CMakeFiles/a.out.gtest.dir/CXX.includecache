@@ -193,6 +193,8 @@ TypeCharacter.hpp
 /home/ics45c/projects/proj4/app/TypeCharacter.hpp
 CursorEnd.hpp
 /home/ics45c/projects/proj4/app/CursorEnd.hpp
+NewLine.hpp
+/home/ics45c/projects/proj4/app/NewLine.hpp
 
 /home/ics45c/projects/proj4/app/KeypressInteractionReader.hpp
 InteractionReader.hpp
@@ -231,6 +233,18 @@ NcursesKeypressReader.hpp
 /home/ics45c/projects/proj4/app/NcursesKeypressReader.hpp
 KeypressReader.hpp
 /home/ics45c/projects/proj4/app/KeypressReader.hpp
+
+/home/ics45c/projects/proj4/app/NewLine.cpp
+NewLine.hpp
+/home/ics45c/projects/proj4/app/NewLine.hpp
+vector
+-
+
+/home/ics45c/projects/proj4/app/NewLine.hpp
+string
+-
+Command.hpp
+/home/ics45c/projects/proj4/app/Command.hpp
 
 /home/ics45c/projects/proj4/app/TypeCharacter.cpp
 TypeCharacter.hpp

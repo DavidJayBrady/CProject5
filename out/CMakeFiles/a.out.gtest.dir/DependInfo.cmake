@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ics45c/projects/proj4/app/KeypressInteractionReader.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.gtest.dir/app/KeypressInteractionReader.cpp.o"
   "/home/ics45c/projects/proj4/app/NcursesEditorView.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.gtest.dir/app/NcursesEditorView.cpp.o"
   "/home/ics45c/projects/proj4/app/NcursesKeypressReader.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.gtest.dir/app/NcursesKeypressReader.cpp.o"
+  "/home/ics45c/projects/proj4/app/NewLine.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.gtest.dir/app/NewLine.cpp.o"
   "/home/ics45c/projects/proj4/app/TypeCharacter.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.gtest.dir/app/TypeCharacter.cpp.o"
   "/home/ics45c/projects/proj4/gtest/BooEditTests.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.gtest.dir/gtest/BooEditTests.cpp.o"
   "/home/ics45c/projects/proj4/gtest/MockInteractionReader.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.gtest.dir/gtest/MockInteractionReader.cpp.o"
