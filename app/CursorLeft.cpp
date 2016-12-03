@@ -9,7 +9,7 @@ void CursorLeft::execute(EditorModel& model)
         throw EditorException{"Can not farther left, maybe I should go up a line?"};
     }
     else {
-        // later, replace this with an intelligent move forward function
+        // later, replace this with an intelligent move
         model.setCurrentColumn(previousColumn - 1);
     }
 }

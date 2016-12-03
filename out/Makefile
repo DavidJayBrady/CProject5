@@ -149,6 +149,39 @@ a.out.gtest/fast:
 	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/build
 .PHONY : a.out.gtest/fast
 
+app/BackSpace.o: app/BackSpace.cpp.o
+
+.PHONY : app/BackSpace.o
+
+# target to build an object file
+app/BackSpace.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/BackSpace.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/BackSpace.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/BackSpace.cpp.o
+.PHONY : app/BackSpace.cpp.o
+
+app/BackSpace.i: app/BackSpace.cpp.i
+
+.PHONY : app/BackSpace.i
+
+# target to preprocess a source file
+app/BackSpace.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/BackSpace.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/BackSpace.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/BackSpace.cpp.i
+.PHONY : app/BackSpace.cpp.i
+
+app/BackSpace.s: app/BackSpace.cpp.s
+
+.PHONY : app/BackSpace.s
+
+# target to generate assembly for a file
+app/BackSpace.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/BackSpace.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/BackSpace.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/BackSpace.cpp.s
+.PHONY : app/BackSpace.cpp.s
+
 app/BooEdit.o: app/BooEdit.cpp.o
 
 .PHONY : app/BooEdit.o
@@ -346,6 +379,39 @@ app/CursorRight.cpp.s:
 	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorRight.cpp.s
 	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/CursorRight.cpp.s
 .PHONY : app/CursorRight.cpp.s
+
+app/CursorUp.o: app/CursorUp.cpp.o
+
+.PHONY : app/CursorUp.o
+
+# target to build an object file
+app/CursorUp.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/CursorUp.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorUp.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/CursorUp.cpp.o
+.PHONY : app/CursorUp.cpp.o
+
+app/CursorUp.i: app/CursorUp.cpp.i
+
+.PHONY : app/CursorUp.i
+
+# target to preprocess a source file
+app/CursorUp.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/CursorUp.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorUp.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/CursorUp.cpp.i
+.PHONY : app/CursorUp.cpp.i
+
+app/CursorUp.s: app/CursorUp.cpp.s
+
+.PHONY : app/CursorUp.s
+
+# target to generate assembly for a file
+app/CursorUp.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/CursorUp.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorUp.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/CursorUp.cpp.s
+.PHONY : app/CursorUp.cpp.s
 
 app/EditorModel.o: app/EditorModel.cpp.o
 
@@ -751,6 +817,9 @@ help:
 	@echo "... a.out.exp"
 	@echo "... a.out.gtest"
 	@echo "... rebuild_cache"
+	@echo "... app/BackSpace.o"
+	@echo "... app/BackSpace.i"
+	@echo "... app/BackSpace.s"
 	@echo "... app/BooEdit.o"
 	@echo "... app/BooEdit.i"
 	@echo "... app/BooEdit.s"
@@ -769,6 +838,9 @@ help:
 	@echo "... app/CursorRight.o"
 	@echo "... app/CursorRight.i"
 	@echo "... app/CursorRight.s"
+	@echo "... app/CursorUp.o"
+	@echo "... app/CursorUp.i"
+	@echo "... app/CursorUp.s"
 	@echo "... app/EditorModel.o"
 	@echo "... app/EditorModel.i"
 	@echo "... app/EditorModel.s"

@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/home/ics45c/projects/proj4/app/BackSpace.cpp
+BackSpace.hpp
+/home/ics45c/projects/proj4/app/BackSpace.hpp
+vector
+-
+NewLine.hpp
+/home/ics45c/projects/proj4/app/NewLine.hpp
+
+/home/ics45c/projects/proj4/app/BackSpace.hpp
+string
+-
+Command.hpp
+/home/ics45c/projects/proj4/app/Command.hpp
+
 /home/ics45c/projects/proj4/app/BooEdit.cpp
 BooEdit.hpp
 /home/ics45c/projects/proj4/app/BooEdit.hpp
@@ -69,6 +83,20 @@ CursorRight.hpp
 /home/ics45c/projects/proj4/app/CursorRight.hpp
 
 /home/ics45c/projects/proj4/app/CursorRight.hpp
+Command.hpp
+/home/ics45c/projects/proj4/app/Command.hpp
+
+/home/ics45c/projects/proj4/app/CursorUp.cpp
+CursorUp.hpp
+/home/ics45c/projects/proj4/app/CursorUp.hpp
+vector
+-
+NewLine.hpp
+/home/ics45c/projects/proj4/app/NewLine.hpp
+
+/home/ics45c/projects/proj4/app/CursorUp.hpp
+string
+-
 Command.hpp
 /home/ics45c/projects/proj4/app/Command.hpp
 
@@ -137,6 +165,8 @@ CursorRight.hpp
 /home/ics45c/projects/proj4/app/CursorRight.hpp
 CursorLeft.hpp
 /home/ics45c/projects/proj4/app/CursorLeft.hpp
+CursorUp.hpp
+/home/ics45c/projects/proj4/app/CursorUp.hpp
 CursorHome.hpp
 /home/ics45c/projects/proj4/app/CursorHome.hpp
 TypeCharacter.hpp
@@ -145,6 +175,8 @@ CursorEnd.hpp
 /home/ics45c/projects/proj4/app/CursorEnd.hpp
 NewLine.hpp
 /home/ics45c/projects/proj4/app/NewLine.hpp
+BackSpace.hpp
+/home/ics45c/projects/proj4/app/BackSpace.hpp
 
 /home/ics45c/projects/proj4/app/KeypressInteractionReader.hpp
 InteractionReader.hpp
