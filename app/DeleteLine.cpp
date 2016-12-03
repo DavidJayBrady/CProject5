@@ -1,6 +1,8 @@
 #include "DeleteLine.hpp"
 #include <vector>
 
+#include "BooEditLog.hpp"
+
 void DeleteLine::execute(EditorModel& model)
 {
     previousColumn = model.cursorColumn();
@@ -13,6 +15,7 @@ void DeleteLine::execute(EditorModel& model)
         lineDeleted = text[0];
         text[0] = "";
         model.setCurrentColumn(1);
+        bool simple = true;
     }
     else
     {
@@ -26,6 +29,7 @@ void DeleteLine::execute(EditorModel& model)
         }
         lineDeleted = text[previousLine-1];
         text.erase(text.begin() + previousLine - 1);
+        simple = false;
     }
 }
 
@@ -35,15 +39,15 @@ void DeleteLine::undo(EditorModel& model)
     model.setCurrentLine(previousLine);
 
     std::vector<std::string>& text = model.giveText();
-    // there was only one line
-    if (text.size() == 1)
+    booEditLog("im fucking here";)
+    if (simple)
     {
+        booEditLog("...");
         text[0] += lineDeleted;
     }
-    // re-doing first line but there was another line
-    else if (text.size() != 1)
+    else
     {
-        text.insert(text.begin(), lineDeleted);
-    }
+        booEditLog("failed");
 
+    }
 }

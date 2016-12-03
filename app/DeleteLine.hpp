@@ -13,6 +13,7 @@ private:
     std::string lineDeleted;
     int previousLine;
     int previousColumn;
+    bool simple;
 };
 
 #endif // DELETELINE_HPP
