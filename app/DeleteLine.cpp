@@ -1,7 +1,5 @@
 #include "DeleteLine.hpp"
-#include <vector>
 
-#include "BooEditLog.hpp"
 
 void DeleteLine::execute(EditorModel& model)
 {
@@ -15,12 +13,17 @@ void DeleteLine::execute(EditorModel& model)
         lineDeleted = text[0];
         text[0] = "";
         model.setCurrentColumn(1);
-        bool simple = true;
+        simple = true;
     }
     else
     {
         if (previousLine == text.size()) {
             model.setCurrentLine(model.cursorLine() - 1);
+            if (previousLine > 1) {
+                if (text[previousLine-2].size() < previousColumn) {
+                    model.setCurrentColumn(text[previousLine-2].size()+1);
+                }
+            }
         }
         else if (previousLine < text.size()) {
             if (text[previousLine].size() < previousColumn) {
@@ -39,15 +42,12 @@ void DeleteLine::undo(EditorModel& model)
     model.setCurrentLine(previousLine);
 
     std::vector<std::string>& text = model.giveText();
-    booEditLog("im fucking here";)
     if (simple)
     {
-        booEditLog("...");
         text[0] += lineDeleted;
     }
     else
     {
-        booEditLog("failed");
-
+        text.insert(text.begin() + previousLine-1, lineDeleted);
     }
 }
