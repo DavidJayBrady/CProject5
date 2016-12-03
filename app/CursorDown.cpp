@@ -1,16 +1,20 @@
-#include "CursorUp.hpp"
+#include "CursorDown.hpp"
+#include <vector>
+
 #include "NewLine.hpp"
 
-void CursorUp::execute(EditorModel& model)
+void CursorDown::execute(EditorModel& model)
 {
     previousColumn = model.cursorColumn();
     previousLine = model.cursorLine();
 
-    if (previousLine == 1) {
-        throw EditorException{"Already at top"};
+    std::vector<std::string>& text = model.giveText();
+
+    if (previousLine == text.size()) {
+        throw EditorException{"Already at bottom"};
     }
     else {
-        model.setCurrentLine(previousLine-1);
+        model.setCurrentLine(previousLine+1);
         std::string line = model.giveCurrentLine();
         int lineLength = line.size();
         if (lineLength < previousColumn) {
@@ -19,7 +23,7 @@ void CursorUp::execute(EditorModel& model)
     }
 }
 
-void CursorUp::undo(EditorModel& model)
+void CursorDown::undo(EditorModel& model)
 {
     model.setCurrentColumn(previousColumn);
     model.setCurrentLine(previousLine);

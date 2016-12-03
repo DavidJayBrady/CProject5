@@ -1,9 +1,10 @@
-#ifndef CURSORRIGHT_HPP
-#define CURSORRIGHT_HPP
+#ifndef CURSORDOWN_HPP
+#define CURSORDOWN_HPP
 
 #include "Command.hpp"
+#include <string>
 
-class CursorRight : public Command
+class CursorDown : public Command
 {
 public:
     virtual void execute(EditorModel&) override;
@@ -13,5 +14,4 @@ private:
     int previousLine;
 };
 
-#endif // CURSORRIGHT_HPP
-
+#endif // CURSORDOWN_HPP

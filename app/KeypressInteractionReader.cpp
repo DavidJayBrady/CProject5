@@ -11,11 +11,13 @@
 #include "CursorRight.hpp"
 #include "CursorLeft.hpp"
 #include "CursorUp.hpp"
+#include "CursorDown.hpp"
 #include "CursorHome.hpp"
 #include "TypeCharacter.hpp"
 #include "CursorEnd.hpp"
 #include "NewLine.hpp"
 #include "BackSpace.hpp"
+#include "DeleteLine.hpp"
 
 // You will need to update this member function to watch for the right
 // keypresses and build the right kinds of Interactions as a result.
@@ -49,6 +51,8 @@ Interaction KeypressInteractionReader::nextInteraction()
                     return Interaction::command(new CursorLeft());
                 case 'I':
                     return Interaction::command(new CursorUp());
+                case 'K':
+                    return Interaction::command(new CursorDown());
                 case 'Y':
                     return Interaction::command(new CursorHome());
                 case 'P':
@@ -58,6 +62,8 @@ Interaction KeypressInteractionReader::nextInteraction()
                     return Interaction::command(new NewLine());
                 case 'H':
                     return Interaction::command(new BackSpace());
+                case 'D':
+                    return Interaction::command(new DeleteLine());
 
             }
         }

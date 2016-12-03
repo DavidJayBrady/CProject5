@@ -22,6 +22,13 @@ CMakeFiles/a.out.app.dir/app/BooEdit.cpp.o: ../app/InteractionType.hpp
 CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o: ../app/BooEditLog.cpp
 CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o: ../app/BooEditLog.hpp
 
+CMakeFiles/a.out.app.dir/app/CursorDown.cpp.o: ../app/Command.hpp
+CMakeFiles/a.out.app.dir/app/CursorDown.cpp.o: ../app/CursorDown.cpp
+CMakeFiles/a.out.app.dir/app/CursorDown.cpp.o: ../app/CursorDown.hpp
+CMakeFiles/a.out.app.dir/app/CursorDown.cpp.o: ../app/EditorException.hpp
+CMakeFiles/a.out.app.dir/app/CursorDown.cpp.o: ../app/EditorModel.hpp
+CMakeFiles/a.out.app.dir/app/CursorDown.cpp.o: ../app/NewLine.hpp
+
 CMakeFiles/a.out.app.dir/app/CursorEnd.cpp.o: ../app/Command.hpp
 CMakeFiles/a.out.app.dir/app/CursorEnd.cpp.o: ../app/CursorEnd.cpp
 CMakeFiles/a.out.app.dir/app/CursorEnd.cpp.o: ../app/CursorEnd.hpp
@@ -53,6 +60,12 @@ CMakeFiles/a.out.app.dir/app/CursorUp.cpp.o: ../app/EditorException.hpp
 CMakeFiles/a.out.app.dir/app/CursorUp.cpp.o: ../app/EditorModel.hpp
 CMakeFiles/a.out.app.dir/app/CursorUp.cpp.o: ../app/NewLine.hpp
 
+CMakeFiles/a.out.app.dir/app/DeleteLine.cpp.o: ../app/Command.hpp
+CMakeFiles/a.out.app.dir/app/DeleteLine.cpp.o: ../app/DeleteLine.cpp
+CMakeFiles/a.out.app.dir/app/DeleteLine.cpp.o: ../app/DeleteLine.hpp
+CMakeFiles/a.out.app.dir/app/DeleteLine.cpp.o: ../app/EditorException.hpp
+CMakeFiles/a.out.app.dir/app/DeleteLine.cpp.o: ../app/EditorModel.hpp
+
 CMakeFiles/a.out.app.dir/app/EditorModel.cpp.o: ../app/BooEditLog.hpp
 CMakeFiles/a.out.app.dir/app/EditorModel.cpp.o: ../app/Command.hpp
 CMakeFiles/a.out.app.dir/app/EditorModel.cpp.o: ../app/EditorException.hpp
@@ -71,11 +84,13 @@ CMakeFiles/a.out.app.dir/app/InteractionProcessor.cpp.o: ../app/InteractionType.
 
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/BackSpace.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/Command.hpp
+CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/CursorDown.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/CursorEnd.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/CursorHome.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/CursorLeft.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/CursorRight.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/CursorUp.hpp
+CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/DeleteLine.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/EditorException.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/EditorModel.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/Interaction.hpp

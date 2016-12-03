@@ -15,6 +15,8 @@ InteractionReader.hpp
 ../app/InteractionReader.hpp
 
 ../app/Command.hpp
+string
+-
 EditorModel.hpp
 ../app/EditorModel.hpp
 EditorException.hpp
@@ -97,10 +99,26 @@ string
 -
 
 /home/ics45c/projects/proj4/app/Command.hpp
+string
+-
 EditorModel.hpp
 /home/ics45c/projects/proj4/app/EditorModel.hpp
 EditorException.hpp
 /home/ics45c/projects/proj4/app/EditorException.hpp
+
+/home/ics45c/projects/proj4/app/CursorDown.cpp
+CursorDown.hpp
+/home/ics45c/projects/proj4/app/CursorDown.hpp
+vector
+-
+NewLine.hpp
+/home/ics45c/projects/proj4/app/NewLine.hpp
+
+/home/ics45c/projects/proj4/app/CursorDown.hpp
+Command.hpp
+/home/ics45c/projects/proj4/app/Command.hpp
+string
+-
 
 /home/ics45c/projects/proj4/app/CursorEnd.cpp
 CursorEnd.hpp
@@ -139,8 +157,6 @@ Command.hpp
 /home/ics45c/projects/proj4/app/CursorUp.cpp
 CursorUp.hpp
 /home/ics45c/projects/proj4/app/CursorUp.hpp
-vector
--
 NewLine.hpp
 /home/ics45c/projects/proj4/app/NewLine.hpp
 
@@ -149,6 +165,18 @@ string
 -
 Command.hpp
 /home/ics45c/projects/proj4/app/Command.hpp
+
+/home/ics45c/projects/proj4/app/DeleteLine.cpp
+DeleteLine.hpp
+/home/ics45c/projects/proj4/app/DeleteLine.hpp
+vector
+-
+
+/home/ics45c/projects/proj4/app/DeleteLine.hpp
+Command.hpp
+/home/ics45c/projects/proj4/app/Command.hpp
+string
+-
 
 /home/ics45c/projects/proj4/app/EditorException.hpp
 string
@@ -217,6 +245,8 @@ CursorLeft.hpp
 /home/ics45c/projects/proj4/app/CursorLeft.hpp
 CursorUp.hpp
 /home/ics45c/projects/proj4/app/CursorUp.hpp
+CursorDown.hpp
+/home/ics45c/projects/proj4/app/CursorDown.hpp
 CursorHome.hpp
 /home/ics45c/projects/proj4/app/CursorHome.hpp
 TypeCharacter.hpp
@@ -227,6 +257,8 @@ NewLine.hpp
 /home/ics45c/projects/proj4/app/NewLine.hpp
 BackSpace.hpp
 /home/ics45c/projects/proj4/app/BackSpace.hpp
+DeleteLine.hpp
+/home/ics45c/projects/proj4/app/DeleteLine.hpp
 
 /home/ics45c/projects/proj4/app/KeypressInteractionReader.hpp
 InteractionReader.hpp

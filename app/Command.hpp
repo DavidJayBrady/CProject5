@@ -40,6 +40,7 @@
 #ifndef COMMAND_HPP
 #define COMMAND_HPP
 
+#include <string>
 #include "EditorModel.hpp"
 #include "EditorException.hpp"
 
